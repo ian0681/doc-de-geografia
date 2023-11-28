@@ -9,6 +9,15 @@ body {
     text-align: justify;
 }
 
+h1 {
+    font-variant: small-caps;
+    font-size: 2.8em;
+}
+
+h2 {
+    font-size: 2.3em;
+}
+
 header {
     background-color: rgb(45, 45, 45);
     color: white;
@@ -16,15 +25,36 @@ header {
     text-align: center;
 }
 
-main {
-    padding: 15px;
+nav {
+    background-color: rgb(75, 75, 75);
+    border: 1px solid black;
+    padding: 10px 15px;
+    box-shadow: 0px 7px 2   px 0px rgba(0, 0, 0, 0.364);
+    font-size: 1.9em;
+}
+
+nav > a.nav {
+    background-image: linear-gradient(to bottom, lightgray, darkgray);
+    padding: 5px 20px 5px 20px;
+    border-radius: 7px;
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.47s;
+}
+
+nav > a.nav:hover {
+    background-image: linear-gradient(to bottom, rgb(69, 69, 69), rgb(41, 41, 41));
+    color: white;
 }
 
 article {
     background-color: white;
+    border-right: 2px solid rgb(33, 33, 33);
+    border-left: 2px solid rgb(33, 33, 33);
     max-width: 800px;
     margin: auto;
     padding: 10px;
+    box-shadow: 7px 0px 2px 0px rgba(0, 0, 0, 0.364);;
 }
 
 article > h1 {
@@ -35,41 +65,79 @@ article > h1 {
 
 article > h2 {
     padding-top: 20px;
+    padding-left: 12px;
 }
 
-div.img {
+section {
     margin: 0px -10px 0px -10px;
     padding: 60px 0px 60px 0px;
 }
 
-div#i1 {
-    background-image: url(imagens/);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: cover;
+section.titulos {
+    padding: 0px 0px 60px 0px;
 }
 
-div#i2 {
-    background-image: url(imagens/);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: cover;
+section.tituloi {
+    padding: 60px 0px 0px 0px;
 }
 
-div#i3 {
-    background-image: url(imagens/);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: cover;
+section.titulois {
+    padding: 60px 0px 60px 0px;
 }
 
-div > p {
-    background-color: rgba(0, 0, 0, 0.556);
+section.normal {
+    padding: 0px;
+}
+
+section.img {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+section#i1 {
+    background-image: url(imagens/favela001-pq.jpg);
+}
+
+section#i2 {
+    background-image: url(imagens/operação-militar001.jpg);
+}
+
+section#i3 {
+    background-image: url(imagens/);
+}
+
+section.img > p {
+    background-color: rgba(0, 0, 0, 0.74);
     color: white;
+}
+
+abbr {
+    text-decoration: none;
 }
 
 p {
     border-radius: 10px;
     margin: 30px;
     padding: 5px;
+    font-size: 1.6em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+abbr.footer {
+    font-weight: bolder;
+    transition-duration: 0.389s;
+}
+
+abbr.footer:hover {
+    color: lightgray;
+    text-decoration: underline;
 }
