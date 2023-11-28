@@ -101,11 +101,11 @@ section#i1 {
 }
 
 section#i2 {
-    background-image: url(imagens/operação-militar001.jpg);
+    background-image: url(imagens/operação-militar001-pq.jpg);
 }
 
 section#i3 {
-    background-image: url(imagens/);
+    background-image: url(imagens/imagem-de-fundo001.jpg);
 }
 
 section.img > p {
@@ -127,8 +127,8 @@ p {
 footer {
     background-color: black;
     color: white;
-    padding: 20px;
-    font-size: 1.4em;
+    padding: 5px;
+    font-size: 0.7em;
     text-align: center;
 }
 
@@ -140,4 +140,8 @@ abbr.footer {
 abbr.footer:hover {
     color: lightgray;
     text-decoration: underline;
+}
+
+footer > p {
+    padding: 0px;
 }
