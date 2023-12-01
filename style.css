@@ -135,8 +135,13 @@ footer {
     padding: 5px;
     font-size: 0.5em;
     text-align: center;
-    width: 500px;
+    max-width: 1200px;
     border-radius: 20px;
+}
+
+footer > p {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 abbr.footer {
