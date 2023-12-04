@@ -71,7 +71,7 @@ article {
     max-width: 800px;
     margin: auto;
     padding: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.59);;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.59);
 }
 
 article > h1 {
